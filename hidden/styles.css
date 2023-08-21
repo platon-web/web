@@ -1,0 +1,86 @@
+:root {
+    --nav-link-height: 50px;
+    --nav-link-width: 100px;
+    --article-width: 600px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {}
+
+body {
+    background-color: linen;
+    font-family: sans-serif;
+    min-width: 500px;
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    width: var(--nav-link-width);
+    height: var(--nav-link-height);
+    color: white;
+    line-height: var(--nav-link-height);
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+.article {
+    height: 200px;
+    overflow: hidden;
+    width: var(--article-width);
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.article img {
+    float: left;
+    margin-right: 15px;
+}
+
+.art-description {
+    padding: 15px;
+}
+
+.panel {
+    width: var(--article-width);
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.control {
+    padding: 10px;
+    background-color: darkorange;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+.panel p {
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.btn-mousehover{
+    background-color: rgb(165, 153, 42);
+}
