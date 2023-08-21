@@ -1,0 +1,28 @@
+:root{
+--sample-size:20px;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+.color-pallete{
+    width: 320px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding:5px;
+    display: flex;
+    padding-bottom:0 0 5px 0;
+    flex-wrap: wrap;
+}
+.sample{
+    width: var(--sample-size);
+    height: var(--sample-size);
+    background-color: aqua;
+    margin: 5px 0 5px 5px;
+}
