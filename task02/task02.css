@@ -1,0 +1,55 @@
+:root {
+  --row-length: 10;
+  --block-width: 80px;
+  --block-height: 50px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  padding: 30px 20px;
+  background-color: linen;
+  height: 100vh;
+}
+
+.button {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  user-select: none;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blocks {
+  margin-top: 30px;
+  border: 1px dotted black;
+  min-height: 20px;
+  border-radius: 5px;
+  /* padding: 10px 10px 10px 0; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: var(--block-width);
+  height: var(--block-height);
+  margin: 10px 0 10px 10px;
+}
