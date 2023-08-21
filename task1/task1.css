@@ -1,0 +1,31 @@
+:root{
+    --border-color:gray;
+    --foreground-color:black;
+}
+
+
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.numeric{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    border:1 solid var(--border-color);
+    border-radius: 5px;
+    user-select: none;
+}
+.value{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color:var(--foreground-color);
+}
+.up{
+    border-bottom: 1px solid gray;
+}
+.buttons{
+    border-left:1px solid gray;
+}
