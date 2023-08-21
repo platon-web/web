@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+.hidden{
+    display: none;
+}
+.country-helper{
+    width: 200px;
+}
+.input{
+    width: 100%;
+}
+.options{
+    margin: 2px 0 0 0;
+    padding: 2px 5px;
+    padding-left: 6px;
+    font-size: 0.8rem;
+    user-select: none;
+    border-radius: 3px;
+}
+.option{
+    padding: 2px 5px;
+    border:1px solid gray;
+}
+.option:hover{
+font-weight: 700;
+}
+.option:first-of-type{
+    border-radius: 3px 3px 0 0;
+}
+.option:last-of-type{
+    border-radius: 0 0 3px 3px;
+}
